@@ -8,5 +8,5 @@ public interface UserFacade
 {
     List<UserDTO> get();
 
-    UserDTO get(String uuid);
+    UserDTO get(final Long id);
 }
